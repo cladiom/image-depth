@@ -6,9 +6,11 @@ The toughts to solve this Puzzle were based on the info given in the file **Task
 
 There are 6 pictures available:
 
-Z25777766_Depth.bmp Z25777766Leer_Depth.bmp 
-Z25777783_Depth.bmp Z25777783Leer_Depth.bmp 
-Z25777796_Depth.bmp Z25777796Leer_Depth.bmp
+| 3-D                 | Selection               |
+| ------------------- | ----------------------- |
+| Z25777766_Depth.bmp | Z25777766Leer_Depth.bmp |
+| Z25777783_Depth.bmp | Z25777783Leer_Depth.bmp |
+| Z25777796_Depth.bmp | Z25777796Leer_Depth.bmp |
 
 There are always 2 pictures belonging together. They differ only by the word "Leer" in the file name.
 
