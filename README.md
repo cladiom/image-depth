@@ -2,6 +2,23 @@
 
 The toughts to solve this Puzzle were based on the info given in the file **TaskDescriptionDepthCamera.pdf**
 
+## Task Description
+
+There are 6 pictures available:
+
+Z25777766_Depth.bmp Z25777766Leer_Depth.bmp 
+Z25777783_Depth.bmp Z25777783Leer_Depth.bmp 
+Z25777796_Depth.bmp Z25777796Leer_Depth.bmp
+
+There are always 2 pictures belonging together. They differ only by the word "Leer" in the file name.
+
+Always the first picture is a 3-dimensional picture of a core in a selection station, the second 3-dimensional picture ("Leer") shows the empty selection place. All pictures were taken with an "Intel Realsense" camera. They are used in the CoremanNet software to determine the volume of the cores.
+
+Your task is to create a program that can handle the pictures. The program must be able to calculate the relative ratio of the volume of the 3 cores among themselves based on the determined image data. Finally, the relative ratio should get displayed via a dialogue.
+
+
+## Approach
+
 As the images given were Color Images with 3 bands, I took the freedom to make my life easier and convert them to grayscale PNG images, some of them i inverted back as the volume was being given negative...
 
 About **Ratio**, I did not really understand what was being expected. Was it supposed to be like which objects are bigger than the others??? We don't really know the real sizes here as we don't know if we are talking about meters, millimeters, etc...
